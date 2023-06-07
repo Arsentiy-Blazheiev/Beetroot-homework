@@ -1,13 +1,11 @@
 # Task 1
 
-# Реализуйте методы append, index, pop, insert для UnorderedList.
-# Также реализуйте метод slice, который будет принимать два параметра
-# `start` и `stop` и  возвращать копию списка, начиная с позиции и до позиции stop, но не включая ее.
 
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
+
 
 class UnorderedList:
     def __init__(self):
@@ -142,12 +140,12 @@ print(sliced_list.size())  # виведе: 1
 
 # Task 2
 
-# Реализуйте stack, используя односвязный список.
 
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
+
 
 class Stack:
     def __init__(self):
@@ -197,12 +195,12 @@ print(stack.get_size())  # виведе: 2
 
 # Task 3
 
-# Реализуйте очередь, используя односвязный список.
 
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
+
 
 class Queue:
     def __init__(self):
